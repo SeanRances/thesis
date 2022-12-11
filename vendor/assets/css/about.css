@@ -1,0 +1,189 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .value-section {
+    height: 40rem;
+
+  }
+
+  .value-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #0f0f59;
+  }
+
+  .value-sub {
+    font-family: Core Sans, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #0f0f59;
+  }
+
+  .value-section .description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+  }
+
+  .value-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #0f0f59;
+  }
+
+  #ftco-navbar {
+    top: 0;
+    transition: top 0.3s;
+  }
+
+
+
+  .mission-section {
+    height: 45rem;
+    background-image: url('../img/bg2.jpg');
+    background-position: 0% 38%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .mission-section .text {
+    display: block;
+    color: #0f0f59;
+    font-size: 52px;
+    line-height: 62.4px;
+    max-width: 923px;
+    margin: 30px 0 0;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #0f0f59;
+    font-weight: 300;
+  }
+
+  .mission-section .title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #0f0f59;
+  }
+
+  .stats-section {
+    height: 55rem;
+
+  }
+
+
+
+  .stats-section .title {
+    font-family: "Montserrat", Sans-serif;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #0f0f59;
+  }
+
+  .stats-section .number {
+    font-family: "Montserrat", Sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 6rem;
+    font-weight: 800;
+    color: #0f0f59;
+
+  }
+
+  .stats-section .num-desc {
+    font-size: 13px;
+    color: #626d8a;
+    font-family: "Montserrat", Sans-serif;
+  }
+
+  .stats-section .desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .stats-section .desc2 {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .stats-section .accelerate {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif
+  }
+
+  .bg-section {
+    height: 45rem;
+    background-image: url('../img/3.jpg');
+    background-position: 0% 45%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+  }
+
+  .goal-section {
+    z-index: 9;
+    background-color: #2e5a83;
+    height: 30rem;
+  }
+
+  .goal-section .goal-card {
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 292px;
+    margin-top: -14rem;
+
+  }
+
+  .goal-section .text-title {
+    font-size: 16;
+    color: #0277ac;
+    letter-spacing: .96px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif
+  }
+
+
+  .goal-section .text {
+    font-size: 40px;
+    line-height: 62.4px;
+    font-weight: 600;
+    color: #0f0f59;
+    font-family: "Montserrat", sans-serif;
+    margin: 5%;
+
+  }
+
+  .goal-section .desc {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }

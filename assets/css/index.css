@@ -1,0 +1,239 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .video-container {
+    height: 50rem;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  .video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+
+  .video-container .caption {
+    z-index: 1;
+    position: relative;
+
+  }
+
+  .video-caption {
+    font-family: Core Sans, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 5.4em;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+  }
+
+  .overlay {
+    background: #0f0f59;
+    position: absolute;
+    height: 50rem;
+    width: 100%;
+    z-index: 1;
+    opacity: .7;
+  }
+
+  .value-section {
+    height: 60rem;
+
+  }
+
+  .value-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #0f0f59;
+  }
+
+  .value-sub {
+    font-family: Core Sans, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #0f0f59;
+  }
+
+  .value-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #0f0f59;
+  }
+
+
+
+  .trivia-section {
+    height: 35rem;
+
+  }
+  
+
+  .trivia-section .card1{
+    height: 505px; 
+    width: 505px; 
+    background-image: url("../img/card1.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 2rem;
+    filter: drop-shadow(1px 1px 1px);
+
+  }
+
+  .trivia-section .card2{
+    height: 505px; 
+    width: 505px; 
+    background-image: url("../img/card2.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 2rem;
+    filter: drop-shadow(1px 1px 1px);
+  
+  }
+
+  .trivia-section .card1-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200px;
+    color: #fff;
+   
+  }
+
+  .trivia-section .card1-text2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    vertical-align: super;
+    margin-top: 5rem;
+   
+  }
+
+  .trivia-section .card1-text3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.5em;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    
+    
+  }
+
+  .trivia-section .card2-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200px;
+    color: #fff;
+    margin-top: 5rem;
+    color: #0f0f59;
+   
+  }
+
+  .trivia-section .card2-text2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 0.9em;
+    color: #0f0f59;
+    vertical-align: super;
+    margin-top: 10rem;
+   
+  }
+
+  .trivia-section .card2-text3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #626d8a;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+  }
+
+
+  
+
+  .bg2-section {
+    height: 50rem;
+    background-image: url("../img/2.jpg");
+    background-position: 0% 45%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    
+  }
+
+  .overlay2 {
+    background: #0f0f59;
+    position: absolute;
+    height: 50rem;
+    width: 100%;
+    z-index: 1;
+    opacity: .7;
+  }
+
+  .contact-section{
+    height: 40rem;
+    background: #f7fcf4;
+  }
+
+  .contact-section .card{
+      background-color: #fff;
+      border-radius: 10px;
+      min-height: 25rem;
+      margin-top: -10rem;
+      z-index: 9;
+      width: 50rem;
+      filter: drop-shadow(1px 1px 1px);
+    }
+
+    .contact-section .text-title {
+      font-size: 16;
+      color: #0277ac;
+      letter-spacing: .96px;
+      font-weight: 700;
+      font-family: 'Open Sans', sans-serif
+    }
+  
+  
+    .contact-section .text {
+      font-size: 20px;
+      line-height: 62.4px;
+      font-weight: 600;
+      color: #0f0f59;
+      font-family: "Montserrat", sans-serif;
+      margin: 5%;
+  
+    }
+
+    .contact-section .text-title2 {
+      font-size: 50;
+      color: #0f0f59;
+      letter-spacing: .96px;
+      font-weight: 900;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 5rem;
+      
+     
+    }
+  
+    #ftco-navbar {
+      top: 0;
+     
+    }
+  
